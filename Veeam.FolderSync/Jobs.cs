@@ -1,5 +1,4 @@
-﻿using Veeam.FolderSync.Logging;
-using Timer = System.Timers.Timer;
+﻿using Timer = System.Timers.Timer;
 
 namespace Veeam.FolderSync;
 

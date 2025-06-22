@@ -4,13 +4,6 @@ namespace Veeam.FolderSync;
 
 internal class FolderSync()
 {
-    private static ILogger _logger;
-
-    static FolderSync()
-    {
-        _logger = new ConsoleLogger();
-    }
-
     internal static void Main(string[] args)
     {
         var sourceFolder = args[0];
