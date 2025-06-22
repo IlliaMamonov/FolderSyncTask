@@ -5,7 +5,7 @@ namespace Veeam.FolderSync;
 
 internal class FolderSyncHelper(ILogger logger)
 {
-    private ILogger _logger = logger;
+    private readonly ILogger _logger = logger;
 
     internal void SyncFolders(string source, string destination)
     {
